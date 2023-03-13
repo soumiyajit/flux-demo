@@ -29,7 +29,7 @@ spec:
       - name: busybox-container
         image: busybox
         command: ["/bin/sh"]
-        args: ["-c", "echo '<html><h1>Learning Flux CD v2 !! </h1>' >> /init-dir/index.html"]
+        args: ["-c", "echo '<html><h1>Learning Flux CD v1 !! </h1>' >> /init-dir/index.html"]
         volumeMounts:
         - name: initdir
           mountPath: "/init-dir"
